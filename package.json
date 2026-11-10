@@ -1,0 +1,16 @@
+{
+  "name": "xjtlu-tuition-clock",
+  "private": true,
+  "packageManager": "pnpm@11.25.0",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "build": "node build.cjs",
+    "test": "node tests/core.cjs",
+    "test:browser": "node tests/browser.cjs"
+  },
+  "devDependencies": {
+    "playwright": "1.62.1"
+  }
+}

@@ -1,0 +1,72 @@
+const assert=require('node:assert/strict');
+const {Core,MASTERS,HISTORY,MASTER_CATALOGUE}=require('../src/data.js');
+const base={level:'bachelor',entry:'2026',program:'domestic',mode:'ft',location:'china',manual:false,amount:99000,feeBasis:'annual',months:48,currency:'CNY',fx:1,discount:0,basis:'contact',weeks:28,hours:16,duration:50};
+for(const [year,fee]of [[2022,88000],[2023,88000],[2024,93000],[2025,93000],[2026,99000]])assert.equal(Core.match({...base,entry:String(year)}).fee,fee);
+assert.equal(Core.match({...base,entry:'2027'}),null);
+assert.equal(Core.match({...base,location:'overseas'}),null);
+assert.equal(Core.match({...base,program:'global'}),null);
+assert.equal(Core.match({...base,mode:'pt'}),null);
+assert.equal(MASTERS.length,55);
+for(const p of MASTERS){for(const mode of ['ft','pt']){const c={...base,level:'master',program:p[0],mode};const months=p[mode==='pt'?5:4];if(!months){assert.equal(Core.match(c),null);continue;}assert.equal(Core.match(c).fee,p[3]);assert.equal(Core.match(c).months,months);assert.equal(Core.match(c).basis,'total');assert.ok(Math.abs(Core.rate(c)-p[3]/(months/12)/28/16/3600)<1e-10);}}
+assert.equal(Core.match({...base,level:'master',program:'finance',entry:'2025'}).fee,180000);
+assert.equal(Core.match({...base,level:'master',program:'finance',entry:'2006'}),null);
+assert.equal(Core.match({...base,level:'doctorate',program:'phd',mode:'ft'}).fee,99000);
+assert.equal(Core.match({...base,level:'doctorate',program:'phd',mode:'pt'}).fee,75000);
+assert.equal(Core.match({...base,level:'doctorate',program:'edd'}),null);
+assert.equal(Core.rate({...base,discount:100}),0);
+assert.ok(Math.abs(Core.rate({...base,discount:20})-Core.rate(base)*.8)<1e-10);
+assert.ok(Math.abs(Core.rate({...base,manual:true,amount:20000,currency:'GBP',fx:9})-180000/28/16/3600)<1e-10);
+assert.equal(Core.valid({...base,hours:0}),false);
+assert.equal(Core.valid({...base,manual:true,amount:NaN}),false);
+assert.equal(Core.valid({...base,manual:true,fx:0}),false);
+const s={duration:3000,rate:.05,elapsed:10,anchor:1000,running:true};
+assert.equal(Core.elapsed(s,5000),14);
+assert.equal(Core.elapsed(s,9999999),3000);
+assert.equal(Core.elapsed({...s,running:false},99999),10);
+assert.equal(Core.snapshot(s,9999999).remaining,0);
+assert.equal(Core.snapshot(s,9999999).spent,150);
+assert.equal(Core.snapshot(s,9999999).progress,100);
+console.log('PASS: intake matching, 55 programmes and modes, annual vs total allocation, unknown intakes, overseas currency, discounts, pause and completion.');
+
+assert.equal(Core.grade('2025',new Date('2026-11-06T00:00:00Z')),2);
+assert.equal(Core.grade('2025',new Date('2026-08-31T15:59:59Z')),1);
+assert.equal(Core.grade('2025',new Date('2026-08-31T16:00:00Z')),2);
+assert.equal(Core.grade('2027',new Date('2026-11-06T00:00:00Z')),0);
+assert.equal(Core.valid({...base,entry:'2026'}),true);
+assert.equal(Core.valid({...base,entry:'2026-09-01'}),false);
+console.log('PASS: entry-year validation and September promotion in Shanghai time.');
+
+// Historical price-change and study-mode boundaries, independently selected examples.
+for(const [year,fee] of [[2006,50000],[2009,50000],[2010,60000],[2012,60000],[2013,66000],[2014,77000],[2015,77000],[2016,88000],[2021,88000]])assert.equal(Core.match({...base,entry:String(year)}).fee,fee);
+for(let year=2006;year<=2026;year++)assert.ok(Core.match({...base,entry:String(year)}));
+const master=(year,program,mode='ft')=>({...base,entry:String(year),level:'master',program,mode});
+for(const [year,fee] of [[2015,120000],[2020,120000],[2021,144000],[2022,144000],[2023,180000],[2025,180000]])assert.equal(Core.match(master(year,'finance')).fee,fee);
+assert.equal(Core.match(master(2016,'supply-chain','pt')).months,30);
+assert.equal(Core.match(master(2017,'supply-chain','pt')).months,36);
+assert.equal(Core.rate(master(2016,'supply-chain','pt'))/Core.rate(master(2017,'supply-chain','pt')),1.2);
+assert.equal(Core.match(master(2025,'international-business','ft')),null);
+assert.equal(Core.match(master(2025,'international-business','pt')).months,36);
+assert.equal(Core.match(master(2026,'international-business','ft')).months,18);
+assert.equal(Core.match(master(2015,'ai')),null);
+assert.equal(Core.match(master(2026,'sustainable-construction')),null);
+const doctoral=(year,program='phd',mode='ft')=>({...base,level:'doctorate',entry:String(year),program,mode,basis:'calendar'});
+assert.equal(Core.match(doctoral(2014)).fee,80000);
+assert.equal(Core.match(doctoral(2014,'phd','pt')).fee,60000);
+assert.equal(Core.match(doctoral(2018,'phd-education')).fee,80000);
+assert.equal(Core.match(doctoral(2018)),null);
+assert.equal(Core.match(doctoral(2023)),null);
+assert.equal(Core.match(doctoral(2025)).fee,99000);
+assert.equal(Core.match(doctoral(2026,'edd','pt')).fee,80000);
+assert.equal(Core.match(doctoral(2022,'edd','pt')),null);
+assert.equal(Core.match(doctoral(2026,'edd','ft')),null);
+const ids=new Set(MASTER_CATALOGUE.map(p=>p[0]));
+assert.equal(ids.size,MASTER_CATALOGUE.length);
+for(const r of HISTORY.fees){
+ const c={...base,entry:String(r.year),level:r.level,program:r.program,mode:r.mode};
+ assert.equal(Core.match(c).fee,r.fee);
+ assert.ok(Core.match(c).source.startsWith('https://'));
+ assert.ok(Number.isFinite(Core.rate(c))&&Core.rate(c)>=0);
+ assert.equal(Core.match({...c,location:'overseas'}),null);
+ if(r.level==='master')assert.ok(ids.has(r.program),`Missing programme ${r.program}`);
+}
+console.log(`PASS: all 2006–2026 mainland undergraduate intakes; ${HISTORY.fees.length} historical fee/mode entries; historical prices/durations; no newer-rate or unrelated-programme fallback.`);

@@ -1,0 +1,78 @@
+{
+  "checked_at": "2026-11-06",
+  "records": [
+    {
+      "year": 2014,
+      "fee": 77000,
+      "basis": "annual",
+      "source": "https://zjrb.zjol.com.cn/html/2015-05/30/content_2878984.htm?div=-1",
+      "title": "浙江日报：不出国门，在家门口留学（2015-05-30）",
+      "source_type": "provincial newspaper",
+      "note": "Explicitly refers to 2014 undergraduate entrants at RMB77,000/year. Earlier April 2014 draft advertised a pending range, not a final amount. Corroborated by June 2014 recruitment interview reproduced at haerbin.baogaosu.com."
+    },
+    {
+      "year": 2015,
+      "fee": 77000,
+      "basis": "annual",
+      "source": "https://www.xjtlu.edu.cn/assets/files/policies/recruitment/XJTLU_Admissions_Articles_20160516.pdf",
+      "title": "西交利物浦大学2016年中国内地本科招生章程",
+      "source_type": "official retrospective statement",
+      "note": "Article 16 explicitly records the 2015 entrant fee as RMB77,000/year; 2016 fee was still pending in this May document."
+    },
+    {
+      "year": 2016,
+      "fee": 88000,
+      "basis": "annual",
+      "source": "https://www.xjtlu.edu.cn/zh/news/2016/06/xjtlu-2016-ug-quota",
+      "title": "西交利物浦大学2016年中国内地本科生招生计划正式发布（2016-06-16）",
+      "source_type": "official final announcement",
+      "note": "Final approved new-entrant fee RMB88,000/year from 2016; existing cohorts retain their original rates. Overrides May pending announcement."
+    },
+    {
+      "year": 2017,
+      "fee": 88000,
+      "basis": "annual",
+      "source": "https://www.xjtlu.edu.cn/zh/news/2017/06/西交利物浦大学2017年中国内地本科生招生章程正式",
+      "title": "西交利物浦大学2017年中国内地本科生招生章程正式公布",
+      "source_type": "official admissions rules",
+      "note": "Article 16: annual tuition RMB88,000; overseas stage of 2+2 separate."
+    },
+    {
+      "year": 2018,
+      "fee": 88000,
+      "basis": "annual",
+      "source": "https://www.xjtlu.edu.cn/assets/files/admissions/西交利物浦大学2018年中国内地本科招生章程(阳光高考网).pdf",
+      "title": "西交利物浦大学2018年中国内地本科招生章程",
+      "source_type": "official admissions rules",
+      "note": "Article 16 annual tuition RMB88,000."
+    },
+    {
+      "year": 2019,
+      "fee": 88000,
+      "basis": "annual",
+      "source": "https://www.xjtlu.edu.cn/assets/files/policies/recruitment/西交利物浦大学2019年中国内地本科招生章程.pdf",
+      "title": "西交利物浦大学2019年中国内地本科招生章程（2019-05-25）",
+      "source_type": "official admissions rules",
+      "note": "Article 16 annual tuition RMB88,000; corroborated by 2019/2020 recruitment-office interview.",
+      "corroborating_source": "https://sfcrs.com/news-show/58"
+    },
+    {
+      "year": 2020,
+      "fee": 88000,
+      "basis": "annual",
+      "source": "https://www.xjtlu.edu.cn/assets/files/admissions/2020年西交利物浦大学本科招生章程.pdf",
+      "title": "西交利物浦大学2020年中国内地本科招生章程",
+      "source_type": "official admissions rules",
+      "note": "Annual tuition RMB88,000; also stated in official 2020 autonomous admissions rules."
+    },
+    {
+      "year": 2021,
+      "fee": 88000,
+      "basis": "annual",
+      "source": "https://www.xjtlu.edu.cn/wp-content/uploads/assets/files/admissions/2021年西交利物浦大学中国内地本科招生章程.pdf",
+      "title": "西交利物浦大学2021年中国内地本科招生章程",
+      "source_type": "official admissions rules",
+      "note": "Annual tuition RMB88,000; corroborated by official 2021 Jiangsu comprehensive evaluation rules."
+    }
+  ]
+}

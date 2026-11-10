@@ -1,0 +1,845 @@
+{
+  "schemaVersion": 1,
+  "institution": "Xi'an Jiaotong-Liverpool University",
+  "researchedAt": "2026-11-06",
+  "scope": "Doctoral historical fee evidence; exact supported years only. A fee at one date is not evidence that every preceding/following cohort paid it.",
+  "currency": "CNY",
+  "programmeHistory": [
+    {
+      "programme": "phd",
+      "earliestEvidenceYear": 2009,
+      "startYearVerified": false,
+      "sources": [
+        {
+          "url": "https://snnu.academia.edu/ShiCheng/CurriculumVitae",
+          "title": "Shi Cheng CV (26 March 2017)",
+          "type": "researcher_cv",
+          "note": "CV records PhD February 2009–December 2013 at XJTLU/UoL."
+        },
+        {
+          "url": "https://www.xjtlu.edu.cn/en/about/overview/history",
+          "title": "XJTLU History",
+          "type": "official",
+          "note": "University timeline records first PhD graduate Shi Cheng in June 2013; postgraduate degree-awarding approval in October 2010. Approval year does not establish first research-student enrolment."
+        }
+      ],
+      "note": "No verified tuition found for 2006–2012. Do not report 2012 as first PhD intake; research students existed in 2009."
+    },
+    {
+      "programme": "edd",
+      "startYear": 2023,
+      "startTerm": "autumn",
+      "startYearVerified": true,
+      "sources": [
+        {
+          "url": "https://www.xjtlu.edu.cn/zh/news/2023/06/huanxinjiaoyushengmingli",
+          "title": "焕新教育生命力 跨越未见至远见：教育博士（EdD）项目发布会",
+          "type": "official_dated",
+          "publicationDate": "2023-06-27",
+          "note": "Launch event 25 June 2023; first planned intake autumn 2023; applications expected to open around 10 July."
+        }
+      ]
+    },
+    {
+      "programme": "three_school_joint_phd",
+      "earliestDatedEvidenceYear": 2024,
+      "startYearVerified": false,
+      "sources": [
+        {
+          "url": "https://m.sohu.com/a/946119694_121124300/",
+          "title": "三校联合培养博士项目 | 西交利物浦大学-西安交通大学-英国利物浦大学博士联合培养项目",
+          "type": "dated_reproduction",
+          "publicationDate": "2025-10-21",
+          "note": "Dated reproduction of launch/recruitment announcement states three-school joint programme, FT 3–4 years, RMB99,000/year."
+        },
+        {
+          "url": "https://www.xjtlu.edu.cn/zh/admissions/doctoral/xjtlu-xjtu-uol-joint-doctoral-programme",
+          "title": "三校联合培养博士项目",
+          "type": "official_undated",
+          "note": "Corroborates FT mode, 3–4 years and RMB99,000/year; current page alone does not date launch."
+        },
+        {
+          "url": "https://www.xjtlu.edu.cn/zh/news/2026/03/xijiaoliwupudaxuejubanzhinenggongchenglianheluntan",
+          "title": "三校联袂 西交利物浦大学举办2026年度智能工程联合论坛",
+          "type": "official_retrospective_news",
+          "publicationDate": "2026-03",
+          "note": "States the first11jointPhDresearchprojects opened recruitment in2024/25; does not give historical fees."
+        },
+        {
+          "url": "https://gs.xjtu.edu.cn/info/1147/11191.htm",
+          "title": "关于做好西安交通大学-西交利物浦-利物浦大学三校联培导师及课题遴选工作的通知",
+          "type": "official_dated_notice",
+          "publicationDate": "2025-12-09",
+          "note": "Allows supervisors whose projects matched in the preceding year to reapply, corroborating earlier cooperation. No tuition or student intake dates."
+        }
+      ],
+      "note": "Distinct from XJTLU-JITRI industrial joint PhDs. First recruitment academic year2024/25 is official; calendar-year first intake and historical fee start remain unresolved.",
+      "firstRecruitmentAcademicYear": "2024/25"
+    }
+  ],
+  "records": [
+    {
+      "id": "phd-2013-recruitment",
+      "programme": "phd-2013-listed",
+      "mode": "research_mode_not_explicitly_stated",
+      "supportedYears": [
+        2013
+      ],
+      "annualFee": 50000,
+      "basis": "annual",
+      "durationMonths": 36,
+      "evidenceScope": "Specific biomedical engineering, energy, surface engineering/materials recruitment",
+      "safeForGenericAutomaticMatch": false,
+      "sources": [
+        {
+          "url": "https://talent.sciencenet.cn/index.php?s=/Info/index/id/10689",
+          "title": "科学网－西交利物浦大学博士研究生招生",
+          "type": "dated_recruitment_ad",
+          "publicationDate": "2013-09-23",
+          "note": "Recruitment signed with XJTLU professor contacts; states three-year research PhD and annual RMB50,000. It does not state PT fee or establish a university-wide fee schedule."
+        }
+      ],
+      "programmeLabel": {
+        "zh": "2013年招生方向：生物医学工程、能源、表面工程与材料",
+        "en": "2013 advertised PhD fields: Biomedical Engineering, Energy, Surface Engineering and Materials"
+      },
+      "fields": [
+        "Biomedical Engineering",
+        "Energy",
+        "Surface Engineering and Materials"
+      ],
+      "safeForScopedAutomaticMatch": false,
+      "reason": "Fee and three-year duration are evidenced, but study mode is not explicit in the dated advertisement."
+    },
+    {
+      "id": "phd-2014-ft",
+      "programme": "phd",
+      "mode": "full_time",
+      "supportedYears": [
+        2014
+      ],
+      "annualFee": 80000,
+      "basis": "annual",
+      "durationMonthsRange": [
+        36,
+        48
+      ],
+      "safeForGenericAutomaticMatch": true,
+      "sources": [
+        {
+          "url": "https://www.yanzhaowang.com.cn/news/zc/201407/1713669.html",
+          "title": "西交利物浦大学硕士博士研究生招生简章",
+          "type": "dated_brochure_reproduction",
+          "publicationDate": "2014-07-17",
+          "note": "Bilingual brochure lists FT80,000/year and FT3–4years; admission context explicitly2014."
+        }
+      ]
+    },
+    {
+      "id": "phd-2014-pt",
+      "programme": "phd",
+      "mode": "part_time",
+      "supportedYears": [
+        2014
+      ],
+      "annualFee": 60000,
+      "basis": "annual",
+      "durationMonthsRange": [
+        48,
+        96
+      ],
+      "safeForGenericAutomaticMatch": true,
+      "sources": [
+        {
+          "url": "https://www.yanzhaowang.com.cn/news/zc/201407/1713669.html",
+          "title": "西交利物浦大学硕士博士研究生招生简章",
+          "type": "dated_brochure_reproduction",
+          "publicationDate": "2014-07-17",
+          "note": "PT60,000/year; PT4–8years. Do not substitute modern4–6year duration."
+        }
+      ]
+    },
+    {
+      "id": "phd-2016-ft-recruitment",
+      "programme": "phd-2016-computing",
+      "mode": "full_time",
+      "supportedYears": [
+        2016
+      ],
+      "annualFee": 80000,
+      "basis": "annual",
+      "durationMonthsRange": [
+        36,
+        48
+      ],
+      "safeForGenericAutomaticMatch": false,
+      "evidenceScope": "Funded computer-science doctoral recruitment",
+      "sources": [
+        {
+          "url": "https://bbs.gter.net/thread-1956503-1-1.html",
+          "title": "利物浦大学（苏州）计算机招全奖直博",
+          "type": "dated_recruitment_ad",
+          "publicationDate": "2016-03-12",
+          "note": "Recruiting post states scholarship pays tuition80,000/year for3–4years. Not a generic university fee regulation."
+        },
+        {
+          "url": "https://bbs.pinggu.org/thread-4190550-1-1.html",
+          "title": "西交利物浦大学-英国利物浦大学联合招收全额奖学金博士生一名",
+          "type": "dated_recruitment_ad",
+          "publicationDate": "2016-01-22",
+          "note": "IBSS supervisor recruitment also states fee waiver80,000/year."
+        }
+      ],
+      "programmeLabel": {
+        "zh": "计算机（2016年招生项目）",
+        "en": "Computer Science (2016 recruitment)"
+      },
+      "safeForScopedAutomaticMatch": true
+    },
+    {
+      "id": "phd-2017-ft",
+      "programme": "phd",
+      "mode": "full_time",
+      "supportedYears": [
+        2017
+      ],
+      "annualFee": 80000,
+      "basis": "annual",
+      "durationMonthsRange": null,
+      "safeForGenericAutomaticMatch": true,
+      "sources": [
+        {
+          "url": "https://www.xjtlu.edu.cn/assets/files/admissions/XJTLU-Sample-Letter-Of-Support-Self-Funded-Guarantor.pdf",
+          "title": "Letter of Financial Support from a Self-Funded Applicant or Individual Guarantor",
+          "type": "official_dated_template",
+          "publicationDate": "2017-12-01",
+          "note": "Dated specimen letter expressly lists tuition80,000/year for FT and60,000/year forPT."
+        }
+      ]
+    },
+    {
+      "id": "phd-2017-pt",
+      "programme": "phd",
+      "mode": "part_time",
+      "supportedYears": [
+        2017
+      ],
+      "annualFee": 60000,
+      "basis": "annual",
+      "durationMonthsRange": null,
+      "safeForGenericAutomaticMatch": true,
+      "sources": [
+        {
+          "url": "https://www.xjtlu.edu.cn/assets/files/admissions/XJTLU-Sample-Letter-Of-Support-Self-Funded-Guarantor.pdf",
+          "title": "Letter of Financial Support from a Self-Funded Applicant or Individual Guarantor",
+          "type": "official_dated_template",
+          "publicationDate": "2017-12-01",
+          "note": "PT60,000/year; template does not specify programme duration."
+        }
+      ]
+    },
+    {
+      "id": "phd-2018-ft",
+      "programme": "phd-education",
+      "mode": "full_time",
+      "supportedYears": [
+        2018
+      ],
+      "annualFee": 80000,
+      "basis": "annual",
+      "durationMonths": 36,
+      "safeForGenericAutomaticMatch": false,
+      "evidenceScope": "PhD in Education brochure",
+      "sources": [
+        {
+          "url": "https://www.xjtlu.edu.cn/assets/files/publications/ILEAD-Brochure-EN-2018.pdf",
+          "title": "ILEAD Brochure 2018",
+          "type": "official_yearly_brochure",
+          "note": "Education PhD fees FT80,000/year, normally3years. This is PhD in Education, not EdD."
+        }
+      ],
+      "programmeLabel": {
+        "zh": "教育学（PhD）",
+        "en": "PhD in Education"
+      },
+      "safeForScopedAutomaticMatch": true
+    },
+    {
+      "id": "phd-2018-pt",
+      "programme": "phd-education",
+      "mode": "part_time",
+      "supportedYears": [
+        2018
+      ],
+      "annualFee": 60000,
+      "basis": "annual",
+      "durationMonthsRange": [
+        48,
+        84
+      ],
+      "safeForGenericAutomaticMatch": false,
+      "evidenceScope": "PhD in Education brochure",
+      "sources": [
+        {
+          "url": "https://www.xjtlu.edu.cn/assets/files/publications/ILEAD-Brochure-EN-2018.pdf",
+          "title": "ILEAD Brochure 2018",
+          "type": "official_yearly_brochure",
+          "note": "Education PhD PT60,000/year, typically4–7years."
+        }
+      ],
+      "programmeLabel": {
+        "zh": "教育学（PhD）",
+        "en": "PhD in Education"
+      },
+      "safeForScopedAutomaticMatch": true
+    },
+    {
+      "id": "phd-2019-ft-recruitment",
+      "programme": "phd-2019-humanities",
+      "mode": "full_time",
+      "supportedYears": [
+        2019
+      ],
+      "annualFee": 80000,
+      "basis": "annual",
+      "scholarshipFeeCoverageMonths": 36,
+      "durationMonthsRange": null,
+      "safeForGenericAutomaticMatch": false,
+      "evidenceScope": "Funded humanities/social-sciences PhD recruitment",
+      "sources": [
+        {
+          "url": "https://www.hanlin.com/archives/153023",
+          "title": "〖博士研究生〗西交利物浦大学",
+          "type": "dated_recruitment_reproduction",
+          "publicationDate": "2019-02-06",
+          "note": "Application deadline20March2019; scholarship covers annual80,000 tuition forupto3years. Funding length is not necessarily graduation duration."
+        },
+        {
+          "url": "https://manoa.hawaii.edu/chinesestudies/xian-jiaotong-liverpool-phd-opportunities/",
+          "title": "Xi’an Jiaotong-Liverpool PhD Opportunities — University of Hawaiʻi Center for Chinese Studies",
+          "type": "university_hosted_recruitment_reproduction",
+          "note": "Same 2019 funded recruitment and named research fields; more authoritative host than the commercial reproduction."
+        }
+      ],
+      "programmeLabel": {
+        "zh": "人文社科（2019年招生方向）",
+        "en": "Humanities and Social Sciences (2019 recruitment)"
+      },
+      "fields": [
+        "China Studies",
+        "English",
+        "Media, Film and TV Arts",
+        "Leadership and Education Advanced Development",
+        "International Relations"
+      ],
+      "safeForScopedAutomaticMatch": true
+    },
+    {
+      "id": "phd-2020-ft",
+      "programme": "phd",
+      "mode": "full_time",
+      "supportedYears": [
+        2020
+      ],
+      "annualFee": 80000,
+      "basis": "annual",
+      "durationMonthsRange": [
+        36,
+        48
+      ],
+      "safeForGenericAutomaticMatch": true,
+      "sources": [
+        {
+          "url": "https://www.xjtlu.edu.cn/assets/files/admissions/西交利物浦大学-2020年研究生自主招生章程.pdf",
+          "title": "西交利物浦大学2020年研究生自主招生章程",
+          "type": "official_yearly_regulation",
+          "note": "Article11 explicitly sets2020incomingPhD fees FT80,000/year, PT60,000/year."
+        },
+        {
+          "url": "https://www.pxemba.com/News/szmba1107.html",
+          "title": "2020西交利物浦大学计算机科学与软件工程(PHD)全日制博士研究生课程简章",
+          "type": "dated_reproduction",
+          "publicationDate": "2020-03-15",
+          "note": "FAQ recommendsFTthesissubmissionwithin3years, mandatorywithin4; corroboratesfees."
+        }
+      ]
+    },
+    {
+      "id": "phd-2020-pt",
+      "programme": "phd",
+      "mode": "part_time",
+      "supportedYears": [
+        2020
+      ],
+      "annualFee": 60000,
+      "basis": "annual",
+      "durationMonthsRange": null,
+      "thesisSubmissionMaximumMonths": 72,
+      "safeForGenericAutomaticMatch": true,
+      "sources": [
+        {
+          "url": "https://www.xjtlu.edu.cn/assets/files/admissions/西交利物浦大学-2020年研究生自主招生章程.pdf",
+          "title": "西交利物浦大学2020年研究生自主招生章程",
+          "type": "official_yearly_regulation",
+          "note": "Article11:PTincomingfee60,000/year."
+        },
+        {
+          "url": "https://www.pxemba.com/News/szmba1107.html",
+          "title": "2020西交利物浦大学计算机科学与软件工程(PHD)全日制博士研究生课程简章",
+          "type": "dated_reproduction",
+          "publicationDate": "2020-03-15",
+          "note": "FAQ describesPTthesissubmissionin6years; doesnotexplicitlyprovideatypicalminimum."
+        }
+      ]
+    },
+    {
+      "id": "phd-2021-ft",
+      "programme": "phd",
+      "mode": "full_time",
+      "supportedYears": [
+        2021
+      ],
+      "annualFee": 80000,
+      "basis": "annual",
+      "durationMonthsRange": null,
+      "scholarshipFeeCoverageMonths": 36,
+      "safeForGenericAutomaticMatch": true,
+      "sources": [
+        {
+          "url": "https://www.xjtlu.edu.cn/en/news/2021/04/whats-it-like-to-do-a-phd-at-xjtlu",
+          "title": "What's it like to do a PhD at XJTLU?",
+          "type": "official_dated_news",
+          "publicationDate": "2021-04-12",
+          "note": "GraduateSchoolDirector states fullscholarshipwaivesannual80,000tuition andstipendupto3years. DoesnotgivePTfee."
+        }
+      ]
+    },
+    {
+      "id": "phd-2022-ft",
+      "programme": "phd",
+      "mode": "full_time",
+      "supportedYears": [
+        2022
+      ],
+      "annualFee": 80000,
+      "basis": "annual",
+      "durationMonthsRange": [
+        36,
+        48
+      ],
+      "safeForGenericAutomaticMatch": true,
+      "sources": [
+        {
+          "url": "https://www.xjtlu.edu.cn/wp-content/uploads/2022/11/2022_PhD_admission_pamphlet.pdf",
+          "title": "2022博士研究生招生简章",
+          "type": "official_yearly_brochure",
+          "note": "Search-indexedPDFexplicitlyFT80,000/year,3–4years; directwebopenrepeatedlytimedout."
+        },
+        {
+          "url": "https://www.xjtlu.edu.cn/wp-content/uploads/assets/files/admissions/phd-projects/FOSA2206012_CheeShen.Lim_SAT.PDF",
+          "title": "PhD studentship (Full-time), FOSA2206012",
+          "type": "official_dated_project",
+          "note": "December2022intakedeadline30September2022; annualtuition80,000covered3years."
+        }
+      ]
+    },
+    {
+      "id": "phd-2022-pt",
+      "programme": "phd",
+      "mode": "part_time",
+      "supportedYears": [
+        2022
+      ],
+      "annualFee": 60000,
+      "basis": "annual",
+      "durationMonthsRange": [
+        48,
+        72
+      ],
+      "safeForGenericAutomaticMatch": true,
+      "sources": [
+        {
+          "url": "https://www.xjtlu.edu.cn/wp-content/uploads/2022/11/2022_PhD_admission_pamphlet.pdf",
+          "title": "2022博士研究生招生简章",
+          "type": "official_yearly_brochure",
+          "note": "Search-indexedPDFexplicitlyPT60,000/year,4–6years."
+        }
+      ]
+    },
+    {
+      "id": "phd-2023-late-ft",
+      "programme": "phd",
+      "mode": "full_time",
+      "supportedYears": [
+        2023
+      ],
+      "knownAsOf": "2023-08-30",
+      "annualFee": 99000,
+      "basis": "annual",
+      "durationMonthsRange": [
+        36,
+        48
+      ],
+      "safeForGenericAutomaticMatch": false,
+      "reason": "Year-only intake cannot distinguish possible 2023 rate transition; new price evidenced by late-August brochure but effective start date not verified.",
+      "sources": [
+        {
+          "url": "https://www.xjtlu.edu.cn/wp-content/uploads/2023/09/2f6ca501d08d01bb3430cdb41902154b.pdf",
+          "title": "2023-8-30博士研究生招生简章单页",
+          "type": "official_dated_brochure",
+          "note": "PDF indexed title dates30August2023; FT99,000/year,3–4years. Download archived under research/doctoral/2023-prospectus.pdf."
+        }
+      ]
+    },
+    {
+      "id": "phd-2023-late-pt",
+      "programme": "phd",
+      "mode": "part_time",
+      "supportedYears": [
+        2023
+      ],
+      "knownAsOf": "2023-08-30",
+      "annualFee": 75000,
+      "basis": "annual",
+      "durationMonthsRange": [
+        48,
+        72
+      ],
+      "safeForGenericAutomaticMatch": false,
+      "reason": "Fee increase effective date within2023notverified.",
+      "sources": [
+        {
+          "url": "https://www.xjtlu.edu.cn/wp-content/uploads/2023/09/2f6ca501d08d01bb3430cdb41902154b.pdf",
+          "title": "2023-8-30博士研究生招生简章单页",
+          "type": "official_dated_brochure",
+          "note": "PT75,000/year,4–6years."
+        }
+      ]
+    },
+    {
+      "id": "phd-2024-2025-ft",
+      "programme": "phd",
+      "mode": "full_time",
+      "supportedYears": [
+        2024,
+        2025
+      ],
+      "annualFee": 99000,
+      "basis": "annual",
+      "durationMonthsRange": [
+        36,
+        48
+      ],
+      "safeForGenericAutomaticMatch": true,
+      "sources": [
+        {
+          "url": "https://www.xjtlu.edu.cn/wp-content/uploads/2022/10/XJTLU_PhD_Admissions-FAQ-2425.pdf",
+          "title": "PhD Admission FAQ 24/25",
+          "type": "official_academic_year_faq",
+          "note": "Filename2425identifies24/25version; uploadfolder2022mustnotbeusedasyear. FT99,000/yearand3–4years."
+        },
+        {
+          "url": "https://liuxue.xdf.cn/blog/weiliurong/blog/5351867.shtml",
+          "title": "博士招生 | 24/25学年西交利物浦大学博士研究生申请指南",
+          "type": "dated_reproduction",
+          "note": "Explicit24/25admissionguidecorroborates99,000and75,000."
+        },
+        {
+          "url": "https://www.10100.com/article/39268022",
+          "title": "博士招生 | 2025/26学年西交利物浦大学博士研究生(PhD)申请指南",
+          "type": "dated_admission_reproduction",
+          "publicationDate": "2025-08-26",
+          "note": "Explicit 2025/26 guide gives FT99,000/year, PT75,000/year, and 3–4 / 4–6 year durations; supports the 2025 autumn cohort independently of the 24/25 FAQ."
+        },
+        {
+          "url": "https://www.xjtlu.edu.cn/wp-content/uploads/2022/10/Heechae_Choi_-_FOSA2412027.pdf",
+          "title": "PhD studentship (Full-time), FOSA2412027",
+          "type": "official_dated_project",
+          "note": "Application deadline31May2025; annual tuition99,000 waived for3years. This is supporting evidence; programme-wide2025/26 guide gives generic rates."
+        }
+      ]
+    },
+    {
+      "id": "phd-2024-2025-pt",
+      "programme": "phd",
+      "mode": "part_time",
+      "supportedYears": [
+        2024,
+        2025
+      ],
+      "annualFee": 75000,
+      "basis": "annual",
+      "durationMonthsRange": [
+        48,
+        72
+      ],
+      "safeForGenericAutomaticMatch": true,
+      "sources": [
+        {
+          "url": "https://www.xjtlu.edu.cn/wp-content/uploads/2022/10/XJTLU_PhD_Admissions-FAQ-2425.pdf",
+          "title": "PhD Admission FAQ 24/25",
+          "type": "official_academic_year_faq",
+          "note": "PT75,000/year,4–6years."
+        },
+        {
+          "url": "https://www.10100.com/article/39268022",
+          "title": "博士招生 | 2025/26学年西交利物浦大学博士研究生(PhD)申请指南",
+          "type": "dated_admission_reproduction",
+          "publicationDate": "2025-08-26",
+          "note": "Explicit 2025/26 guide gives FT99,000/year, PT75,000/year, and 3–4 / 4–6 year durations; supports the 2025 autumn cohort independently of the 24/25 FAQ."
+        }
+      ]
+    },
+    {
+      "id": "edd-2023",
+      "programme": "edd",
+      "mode": "part_time",
+      "supportedYears": [
+        2023
+      ],
+      "annualFee": 80000,
+      "basis": "staged_annual_fees",
+      "durationMonths": 66,
+      "registrationMonthsRange": [
+        54,
+        102
+      ],
+      "minimumFeeCoveredMonths": 54,
+      "minimumTuition": 360000,
+      "minimumTuitionDerivation": "4*80000+40000",
+      "feeSchedule": [
+        {
+          "months": [
+            1,
+            48
+          ],
+          "annualFee": 80000
+        },
+        {
+          "months": [
+            49,
+            54
+          ],
+          "periodFee": 40000
+        },
+        {
+          "months": [
+            55,
+            102
+          ],
+          "fee": null,
+          "basis": "University of Liverpool continuation/registration fee, amount not verified"
+        }
+      ],
+      "safeForGenericAutomaticMatch": false,
+      "reason": "Normalduration66months,butexplicit360000tuitiononlycoversfirst54months;post54monthregistrationfeeunknown.",
+      "sources": [
+        {
+          "url": "https://china-emba.cn/?a=view&c=news&id=211",
+          "title": "西浦未来教育学院教育博士（EdD）项目",
+          "type": "dated_reproduction",
+          "publicationDate": "2023-08-08",
+          "note": "Statesnormal5.5years,registration4.5–8.5years;first4yearsat80,000then9thsemester40,000;subsequentUoLregistrationfees."
+        },
+        {
+          "url": "https://ilead.xjtlu.edu.cn/zh/85",
+          "title": "ILEAD 教育博士（EdD）项目",
+          "type": "official_undated_corroboration",
+          "note": "Confirmsfirst4yearsat80,000and9thsemester40,000;undatedpageisnotusedtofilllaterintakes."
+        }
+      ]
+    },
+    {
+      "id": "edd-2024",
+      "programme": "edd",
+      "mode": "part_time",
+      "supportedYears": [
+        2024
+      ],
+      "annualFee": 80000,
+      "basis": "annual",
+      "durationMonths": 66,
+      "safeForGenericAutomaticMatch": true,
+      "sources": [
+        {
+          "url": "https://www.sohu.com/a/772466356_121124035",
+          "title": "升学｜欢迎申请西浦未来教育学院教育博士（EdD）项目，2024学年秋季学期申请现已开放",
+          "type": "dated_admission_reproduction",
+          "note": "Explicit2024falladmission;annual80,000,usually5.5years. Nofixedtotalisquoted;440,000wouldbeanestimatefromannualrateandnormalduration."
+        }
+      ]
+    },
+    {
+      "id": "edd-2025",
+      "programme": "edd",
+      "mode": "part_time",
+      "supportedYears": [
+        2025
+      ],
+      "annualFee": 80000,
+      "basis": "annual",
+      "durationMonths": 66,
+      "safeForGenericAutomaticMatch": true,
+      "sources": [
+        {
+          "url": "https://www.sohu.com/a/847577839_121124300",
+          "title": "博士招生 | 欢迎申请西浦未来教育学院教育博士（EdD）专业，2025学年秋季申请现已开放！",
+          "type": "dated_admission_reproduction",
+          "publicationDate": "2025-01-10",
+          "note": "2025Septemberintakedeadline15May2025;annual80,000,usually5.5years;noall-infixedtuitiontotalstated."
+        }
+      ]
+    },
+    {
+      "id": "three-school-joint-2025",
+      "programme": "three_school_joint_phd",
+      "mode": "full_time",
+      "supportedYears": [
+        2025
+      ],
+      "annualFee": 99000,
+      "basis": "annual",
+      "durationMonthsRange": [
+        36,
+        48
+      ],
+      "safeForGenericAutomaticMatch": false,
+      "sources": [
+        {
+          "url": "https://m.sohu.com/a/946119694_121124300/",
+          "title": "三校联合培养博士项目 | 西交利物浦大学-西安交通大学-英国利物浦大学博士联合培养项目",
+          "type": "dated_admission_reproduction",
+          "publicationDate": "2025-10-21",
+          "note": "ExplicitFT3–4yearsand99,000/year;currentofficialprogrammepagecorroborates."
+        },
+        {
+          "url": "https://www.xjtlu.edu.cn/zh/admissions/doctoral/xjtlu-xjtu-uol-joint-doctoral-programme",
+          "title": "三校联合培养博士项目",
+          "type": "official_undated_corroboration",
+          "note": "ThreeuniversitiesXJTLU,XJTU,UoL. DistinctfromJITRI."
+        }
+      ],
+      "knownAsOf": "2025-10-21",
+      "reason": "A dated October2025 recruitment quotation is verified, but an explicit2025 intake or fee effective date is not. First projects opened in academic year2024/25."
+    },
+    {
+      "id": "edd-2026",
+      "programme": "edd",
+      "mode": "part_time",
+      "supportedYears": [
+        2026
+      ],
+      "annualFee": 80000,
+      "basis": "annual",
+      "durationMonthsRange": [
+        54,
+        66
+      ],
+      "minimumDurationMonths": 54,
+      "safeForGenericAutomaticMatch": true,
+      "sources": [
+        {
+          "url": "https://www.xjtlu.edu.cn/wp-content/uploads/2026/01/XJTLU-Doctoral-Research-Prospectus-2026-ZH.pdf",
+          "title": "西浦博士研究生招生简章2026",
+          "type": "official_yearly_brochure",
+          "note": "Pages7–8:EdDPT,annual80,000,taughtstage3years+thesisstageatleast1.5years."
+        },
+        {
+          "url": "https://www.xjtlu.edu.cn/zh/admissions/doctoral/programme-fees",
+          "title": "博士生学费",
+          "type": "official_current",
+          "note": "CurrentEdDguidanceusually4.5–5.5years."
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    {
+      "programme": "phd",
+      "mode": "all",
+      "years": [
+        2006,
+        2007,
+        2008,
+        2009,
+        2010,
+        2011,
+        2012,
+        2015
+      ],
+      "reason": "No verified cohort-specific generic fee schedule found."
+    },
+    {
+      "programme": "phd",
+      "mode": "part_time",
+      "years": [
+        2013,
+        2016,
+        2019,
+        2021
+      ],
+      "reason": "No datedPTfeesourcefound;adjacent80k/60kyearsarenotproof."
+    },
+    {
+      "programme": "phd",
+      "mode": "full_time",
+      "years": [
+        2013,
+        2016,
+        2019
+      ],
+      "reason": "Feeevidenceexistsforspecificrecruitment,notvalidateduniversity-widecohorts."
+    },
+    {
+      "programme": "phd",
+      "mode": "all",
+      "years": [
+        2023
+      ],
+      "reason": "99k/75kexistsinlateAugust2023brochure,butfeechangeeffectiveintakedatenotverified."
+    },
+    {
+      "programme": "edd",
+      "years": [
+        2023
+      ],
+      "reason": "Minimumfirst54monthtuitionknown;normal66monthtotaldependsunknownpost54monthUoLregistrationfee."
+    },
+    {
+      "programme": "three_school_joint_phd",
+      "years": [
+        2006,
+        2007,
+        2008,
+        2009,
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "reason": "First recruitment in2024/25 confirmed, but a cohort-linked historical fee schedule is unverified. October2025 rate quote is99,000/year; do not equate publication date with intake year."
+    }
+  ],
+  "implementationNotes": [
+    "Use the fee basis exactly: annualPhDratesarenotcompleteprogrammeprices;36/48/72monthtotalsareappestimates.",
+    "Fullscholarshiptuitionwaiversand20%alumnidiscountsareindividualadjustments,notgenericstickerfees.",
+    "For missing historical records use explicit manual fee entry; nevernearest-yearfallback.",
+    "Keep EdD distinct from PhD in Education and three-school joint PhD distinct from JITRI industry training.",
+    "Normaldurationrangeschangedhistorically:2014PT4–8years;2018educationPhDPT4–7;2022onwardPT4–6.",
+    "Some recruitment evidence only says three-year scholarship support. Do not infer three-year graduation from that.",
+    "2023brochurePDFindexedtitleisdated,butmidyearfeechangeisnotfullyresolved.",
+    "2018 Education PhD and 2013/2016/2019 research advertisements have distinct programme IDs and bilingual labels; use scoped records only for those fields."
+  ]
+}

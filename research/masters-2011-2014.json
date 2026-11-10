@@ -1,0 +1,444 @@
+{
+  "schema_version": 1,
+  "checked_on": "2026-11-06",
+  "scope": "XJTLU masters, exact intake-year programme fee evidence, 2011–2014",
+  "status": "frozen_research_with_explicit_gaps",
+  "schema_note": "records只接收同年项目、准确总价和学制均有可靠证据的条目；本文件records为空。programme_evidence是项目/学制信息，不是学费匹配记录。禁止现价或邻近年份回填。",
+  "sources": {
+    "masters-2011-history": {
+      "url": "https://www.xjtlu.edu.cn/zh/news/2026/03/shuoshiyanjiushengkaifangri2026",
+      "title": "1300人现场探校 西浦2026硕士开放日全景直击",
+      "published_date": "2026-03",
+      "evidence": "官网回顾确认硕士教育始于2011年，首届金融学专业招收12人。",
+      "verification": "search_index_text_read",
+      "supports": [
+        "programme_start"
+      ],
+      "does_not_support": [
+        "2011_fee",
+        "2011_duration"
+      ],
+      "kind": "official_university_retrospective",
+      "publisher": "XJTLU"
+    },
+    "masters-2012-programmes": {
+      "url": "https://www.gx211.cn/news/2012528/n2501101976.html",
+      "title": "西交利物浦大学获教育部批准开展研究生教育",
+      "published_date": "2012-05-28",
+      "evidence": "列出2012年开设六个硕士项目：应用信息学、金融学、金融数学、多媒体通信、可持续能源技术、对外英语教育。并记载教外综函〔2012〕21号批复。",
+      "verification": "full_text_read",
+      "supports": [
+        "2012_programme_offerings"
+      ],
+      "does_not_support": [
+        "2012_fee",
+        "2012_duration"
+      ],
+      "kind": "contemporary_university_news_reproduction",
+      "publisher": "中国高校之窗"
+    },
+    "masters-2014-brochure": {
+      "url": "https://www.yanzhaowang.com.cn/news/zc/201407/1713669.html",
+      "title": "西交利物浦大学硕士博士研究生招生简章",
+      "published_date": "2014-07-17",
+      "evidence": "列出20个硕士专业及学制；奖学金截止日期写明2014-04-01，确认材料属于2014招生季。仅给全日制总学费9–15万元、非全日制9–32万元的总范围，未逐专业列价。",
+      "verification": "full_text_read",
+      "supports": [
+        "2014_programmes",
+        "2014_durations",
+        "2014_fee_ranges"
+      ],
+      "does_not_support": [
+        "individual_programme_fees"
+      ],
+      "transcription_note": "英文上限漏写一个0（15,000及32,000），中文写9万至15万、9万至32万；保留中文范围，但不能把范围端点任意配给专业。",
+      "kind": "contemporary_admissions_brochure_reproduction",
+      "publisher": "XJTLU material reproduced"
+    },
+    "masters-2014-architecture": {
+      "url": "https://archinect.com/XLarch/release/march-des-a-university-of-liverpool-degree-taught-in-english-in-china",
+      "title": "MArch(Des) - A University of Liverpool degree taught in English in China",
+      "published_date": "2013-05-23",
+      "evidence": "西浦建筑系账号宣布建筑设计硕士2014年秋首招，为两年全日制课程。",
+      "verification": "full_text_read",
+      "supports": [
+        "architecture_2014_first_intake",
+        "architecture_24_months"
+      ],
+      "does_not_support": [
+        "tuition_fee"
+      ],
+      "kind": "university_department_official_account_press_release",
+      "publisher": "XJTLU"
+    }
+  },
+  "records": [],
+  "historical_programmes": [
+    {
+      "programme_id": "sustainable-construction",
+      "name_zh": "可持续建筑",
+      "name_en": "Sustainable Construction"
+    }
+  ],
+  "programme_evidence": [
+    {
+      "entry_year": 2011,
+      "programme_id": "finance",
+      "name_zh": "金融学",
+      "name_en": null,
+      "ft_months": null,
+      "pt_months": null,
+      "source": "masters-2011-history",
+      "evidence_scope": "programme existence only",
+      "fee_verified": false
+    },
+    {
+      "entry_year": 2012,
+      "programme_id": "informatics",
+      "name_zh": "应用信息学",
+      "name_en": null,
+      "ft_months": null,
+      "pt_months": null,
+      "source": "masters-2012-programmes",
+      "evidence_scope": "programme existence only",
+      "fee_verified": false
+    },
+    {
+      "entry_year": 2012,
+      "programme_id": "finance",
+      "name_zh": "金融学",
+      "name_en": null,
+      "ft_months": null,
+      "pt_months": null,
+      "source": "masters-2012-programmes",
+      "evidence_scope": "programme existence only",
+      "fee_verified": false
+    },
+    {
+      "entry_year": 2012,
+      "programme_id": "financial-maths",
+      "name_zh": "金融数学",
+      "name_en": null,
+      "ft_months": null,
+      "pt_months": null,
+      "source": "masters-2012-programmes",
+      "evidence_scope": "programme existence only",
+      "fee_verified": false
+    },
+    {
+      "entry_year": 2012,
+      "programme_id": "telecom",
+      "name_zh": "多媒体通信",
+      "name_en": null,
+      "ft_months": null,
+      "pt_months": null,
+      "source": "masters-2012-programmes",
+      "evidence_scope": "programme existence only",
+      "fee_verified": false
+    },
+    {
+      "entry_year": 2012,
+      "programme_id": "sustainable-energy",
+      "name_zh": "可持续能源技术",
+      "name_en": null,
+      "ft_months": null,
+      "pt_months": null,
+      "source": "masters-2012-programmes",
+      "evidence_scope": "programme existence only",
+      "fee_verified": false
+    },
+    {
+      "entry_year": 2012,
+      "programme_id": "tesol",
+      "name_zh": "对外英语教育",
+      "name_en": null,
+      "ft_months": null,
+      "pt_months": null,
+      "source": "masters-2012-programmes",
+      "evidence_scope": "programme existence only",
+      "fee_verified": false
+    },
+    {
+      "entry_year": 2014,
+      "programme_id": "urban",
+      "name_zh": "城市规划",
+      "name_en": "MSc Urban Planning",
+      "ft_months": 18,
+      "pt_months": 0,
+      "source": "masters-2014-brochure",
+      "evidence_scope": "programme and duration only",
+      "fee_verified": false
+    },
+    {
+      "entry_year": 2014,
+      "programme_id": "entrepreneurship",
+      "name_zh": "创业与创新",
+      "name_en": "MSc Entrepreneurship and Innovation",
+      "ft_months": 18,
+      "pt_months": 0,
+      "source": "masters-2014-brochure",
+      "evidence_scope": "programme and duration only",
+      "fee_verified": false
+    },
+    {
+      "entry_year": 2014,
+      "programme_id": "tesol",
+      "name_zh": "对外英语教学",
+      "name_en": "MA TESOL",
+      "ft_months": 18,
+      "pt_months": 30,
+      "source": "masters-2014-brochure",
+      "evidence_scope": "programme and duration only",
+      "fee_verified": false
+    },
+    {
+      "entry_year": 2014,
+      "programme_id": "telecom",
+      "name_zh": "多媒体通信",
+      "name_en": "MSc Multimedia Telecommunications",
+      "ft_months": 18,
+      "pt_months": 0,
+      "source": "masters-2014-brochure",
+      "evidence_scope": "programme and duration only",
+      "fee_verified": false
+    },
+    {
+      "entry_year": 2014,
+      "programme_id": "molecular",
+      "name_zh": "分子生物学（研究型）",
+      "name_en": "MRes Molecular Bioscience",
+      "ft_months": 18,
+      "pt_months": 0,
+      "source": "masters-2014-brochure",
+      "evidence_scope": "programme and duration only",
+      "fee_verified": false
+    },
+    {
+      "entry_year": 2014,
+      "programme_id": "chemistry",
+      "name_zh": "高级化学（研究型）",
+      "name_en": "MRes Advanced Chemical Sciences",
+      "ft_months": 18,
+      "pt_months": 0,
+      "source": "masters-2014-brochure",
+      "evidence_scope": "programme and duration only",
+      "fee_verified": false
+    },
+    {
+      "entry_year": 2014,
+      "programme_id": "management",
+      "name_zh": "管理学",
+      "name_en": "MSc Management",
+      "ft_months": 18,
+      "pt_months": 36,
+      "source": "masters-2014-brochure",
+      "evidence_scope": "programme and duration only",
+      "fee_verified": false
+    },
+    {
+      "entry_year": 2014,
+      "programme_id": "imba",
+      "name_zh": "国际MBA",
+      "name_en": "International MBA",
+      "ft_months": 0,
+      "pt_months": 24,
+      "source": "masters-2014-brochure",
+      "evidence_scope": "programme and duration only",
+      "fee_verified": false
+    },
+    {
+      "entry_year": 2014,
+      "programme_id": "cs",
+      "name_zh": "计算机科学（研究型）",
+      "name_en": "MRes Computer Science",
+      "ft_months": 18,
+      "pt_months": 0,
+      "source": "masters-2014-brochure",
+      "evidence_scope": "programme and duration only",
+      "fee_verified": false
+    },
+    {
+      "entry_year": 2014,
+      "programme_id": "architecture",
+      "name_zh": "建筑设计",
+      "name_en": "Master of Architectural Design",
+      "ft_months": 24,
+      "pt_months": 0,
+      "source": "masters-2014-brochure",
+      "evidence_scope": "programme and duration only",
+      "fee_verified": false,
+      "corroboration": "masters-2014-architecture"
+    },
+    {
+      "entry_year": 2014,
+      "programme_id": "finance",
+      "name_zh": "金融学",
+      "name_en": "MSc Finance",
+      "ft_months": 18,
+      "pt_months": 0,
+      "source": "masters-2014-brochure",
+      "evidence_scope": "programme and duration only",
+      "fee_verified": false
+    },
+    {
+      "entry_year": 2014,
+      "programme_id": "financial-maths",
+      "name_zh": "金融数学",
+      "name_en": "MSc Financial Mathematics",
+      "ft_months": 18,
+      "pt_months": 0,
+      "source": "masters-2014-brochure",
+      "evidence_scope": "programme and duration only",
+      "fee_verified": false
+    },
+    {
+      "entry_year": 2014,
+      "programme_id": "economics",
+      "name_zh": "经济与金融",
+      "name_en": "MSc Economics and Finance",
+      "ft_months": 18,
+      "pt_months": 0,
+      "source": "masters-2014-brochure",
+      "evidence_scope": "programme and duration only",
+      "fee_verified": false
+    },
+    {
+      "entry_year": 2014,
+      "programme_id": "sustainable-construction",
+      "name_zh": "可持续建筑",
+      "name_en": "MSc Sustainable Construction",
+      "ft_months": 18,
+      "pt_months": 0,
+      "source": "masters-2014-brochure",
+      "evidence_scope": "programme and duration only",
+      "fee_verified": false
+    },
+    {
+      "entry_year": 2014,
+      "programme_id": "sustainable-energy",
+      "name_zh": "可持续能源技术",
+      "name_en": "MSc Sustainable Energy Technology",
+      "ft_months": 18,
+      "pt_months": 0,
+      "source": "masters-2014-brochure",
+      "evidence_scope": "programme and duration only",
+      "fee_verified": false
+    },
+    {
+      "entry_year": 2014,
+      "programme_id": "social-computing",
+      "name_zh": "社会计算",
+      "name_en": "MSc Social Computing",
+      "ft_months": 18,
+      "pt_months": 0,
+      "source": "masters-2014-brochure",
+      "evidence_scope": "programme and duration only",
+      "fee_verified": false
+    },
+    {
+      "entry_year": 2014,
+      "programme_id": "investment",
+      "name_zh": "投资管理",
+      "name_en": "MSc Investment Management",
+      "ft_months": 18,
+      "pt_months": 0,
+      "source": "masters-2014-brochure",
+      "evidence_scope": "programme and duration only",
+      "fee_verified": false
+    },
+    {
+      "entry_year": 2014,
+      "programme_id": "informatics",
+      "name_zh": "应用信息学",
+      "name_en": "MSc Applied Informatics",
+      "ft_months": 18,
+      "pt_months": 0,
+      "source": "masters-2014-brochure",
+      "evidence_scope": "programme and duration only",
+      "fee_verified": false
+    },
+    {
+      "entry_year": 2014,
+      "programme_id": "supply-chain",
+      "name_zh": "运营与供应链管理",
+      "name_en": "MSc Operations and Supply Chain Management",
+      "ft_months": 18,
+      "pt_months": 36,
+      "source": "masters-2014-brochure",
+      "evidence_scope": "programme and duration only",
+      "fee_verified": false
+    },
+    {
+      "entry_year": 2014,
+      "programme_id": "accounting",
+      "name_zh": "专业会计",
+      "name_en": "MSc Professional Accounting",
+      "ft_months": 18,
+      "pt_months": 0,
+      "source": "masters-2014-brochure",
+      "evidence_scope": "programme and duration only",
+      "fee_verified": false
+    }
+  ],
+  "gaps": [
+    {
+      "entry_year": 2011,
+      "reason": "已确认首届金融学硕士招生，但未找到同年收费与学制的充分证据。"
+    },
+    {
+      "entry_year": 2012,
+      "reason": "已确认六个硕士项目，但未找到同年逐项目学费与学制的充分证据。"
+    },
+    {
+      "entry_year": 2013,
+      "reason": "三个工程类专业有18个月、总费9万元的镜像材料线索；苏州大学候选原站文章返回HTTP 410，档案查询无快照，镜像域名不可靠，未进入records。"
+    },
+    {
+      "entry_year": 2014,
+      "reason": "同年招生简章明确20个专业及学制，但收费只给全日制总额9–15万、非全日制9–32万范围；不能按项目自动分配。可持续能源个体录取信仅保留leads。"
+    }
+  ],
+  "leads": [
+    {
+      "years": [
+        2013
+      ],
+      "programs": [
+        "telecom",
+        "sustainable-energy",
+        "informatics"
+      ],
+      "fee": 90000,
+      "basis": "total",
+      "ft_months": 18,
+      "pt_months": null,
+      "auto_match": false,
+      "candidate_original_url": "https://jdxy.suda.edu.cn/86/e9/c12009a296681/page.htm",
+      "discovered_mirror_url": "https://www.sxmjet.com/jdxy/86/e9/c12009a296681/page.htm",
+      "title": "西交利物浦大学硕士招生宣讲会",
+      "evidence": "检索索引中的旧宣讲材料明确写2013年9月入学、2013年7月31日申请截止、三个专业、18个月全日制、第一年6万加第二年3万。",
+      "source_problem": "检索到的是含博彩广告标题的苏州大学网站镜像，不能把其域名当学校官方网站。通过镜像其他页中的suda.edu.cn链接定位到候选原站，但原始文章目前返回HTTP 410；Wayback可用性查询未取得快照。因此只存为未核实线索，不进入可信自动匹配。"
+    },
+    {
+      "entry_year": 2014,
+      "programme_id": "sustainable-energy",
+      "fee": 90000,
+      "currency": "CNY",
+      "basis": "total",
+      "ft_months": 18,
+      "pt_months": 0,
+      "url": "https://www.scribd.com/document/266512188",
+      "title": "2014年7月可持续能源技术硕士录取信公开副本",
+      "kind": "individual_offer_public_copy",
+      "evidence_note": "正文明确2014年9月至2016年2月、全日制18个月、课程总费90,000元，分60,000和30,000两期缴纳。未保留持有人身份信息。",
+      "reason_not_in_records": "个人上传且未独立核验真实性，未确认内地生与国际生是否同价，不用于默认自动匹配。"
+    }
+  ],
+  "implementation_notes": [
+    "没有可安全直接加入自动匹配的2011–2014精确学费表；未按2015或现价回填。null表示未找到充分证据，不代表免费或专业不存在。",
+    "2014学制与现今不同：管理学非全日制36个月、TESOL非全日制30个月；创业与创新18个月；分子生物学、高级化学、计算机科学研究型均18个月。不能用2026学制替代。",
+    "pt_months为0仅表示该份2014招生目录未列该模式，不是对全年所有特殊安排的否定。",
+    "招生简章项目目录证明当年招生宣传中列出课程，不等于每个课程最终实际成班人数均已核实。",
+    "首届硕士教育开始于2011年有官方回溯证据；2012年获教育部批复不是应把硕士最早入学年份锁死为2012年的理由。"
+  ]
+}

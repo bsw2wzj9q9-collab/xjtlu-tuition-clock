@@ -1,0 +1,190 @@
+{
+  "institution": "西交利物浦大学 / Xi'an Jiaotong-Liverpool University",
+  "researched_at": "2026-11-06",
+  "scope": "中国内地本科新生，在西交利物浦大学中国校区就读期间的基本年学费；不含住宿、教材、生活费，不扣除奖学金，不含赴利物浦大学阶段学费。",
+  "currency": "CNY",
+  "fee_basis": "per_academic_year",
+  "years": [
+    {
+      "year": 2006,
+      "annual_cny": 50000,
+      "source_url": "https://m.kaoyan.com/www/kaoyan/27/539699/",
+      "source_title": "昆山杜克大学研究生学费每年16万元 能否\"优质优价\"",
+      "published_date": "2014-02-27",
+      "source_type": "retrospective_news_reproduction",
+      "evidence": "报道明确回溯西交利物浦大学2006年创办当年的本科生年学费为5万元；没有从2007年费率倒推。",
+      "verification": "full_text_read",
+      "confidence": "medium",
+      "limitations": "尚未取得2006年招生章程原件；此项证据是2014年对创办时费率的明确回溯报道，转载页未标明原报刊来源。",
+      "corroboration": [
+        {
+          "url": "https://www.moe.gov.cn/srcsite/A20/moe_862/200605/t20060522_78186.html",
+          "title": "教育部关于批准设立西交利物浦大学的函",
+          "evidence": "2006-05-22批准设立学校，仅用于确认建校年份，不用于证明学费。"
+        }
+      ]
+    },
+    {
+      "year": 2007,
+      "annual_cny": 50000,
+      "source_url": "https://edu.sina.com.cn/gaokao/2007-06-21/204289622.shtml",
+      "source_title": "西交利物浦大学2007年高招政策",
+      "published_date": "2007-06-21",
+      "source_type": "contemporary_interview_with_university_executive_president",
+      "evidence": "宋校长在2007年高招咨询访谈中说明，经国家物价部门批准，每人每年学费5万元；住宿费另列为2000元。",
+      "verification": "full_article_in_search_index; live_open_omitted_article_body",
+      "confidence": "high",
+      "limitations": "页面直接打开的文本抽取未包含主体，但针对该URL的检索返回了完整访谈正文和收费段。"
+    },
+    {
+      "year": 2008,
+      "annual_cny": 50000,
+      "source_url": "https://www.gkzxw.com/gxzs/200806/11591.html",
+      "source_title": "西交利物浦大学2008年国内招生章程",
+      "published_date": "2008-06",
+      "source_type": "contemporary_admissions_charter_reproduction",
+      "evidence": "2008年国内大陆地区招生章程第4.1条列每人每学年5万元人民币，称已经江苏省教育厅及省物价局批准；第4.2条另列住宿费。",
+      "verification": "full_text_read",
+      "confidence": "high",
+      "corroboration": [
+        {
+          "url": "https://goabroad.sohu.com/20080721/n258270003.shtml",
+          "title": "本科4年学费24万 “天价高校”也受考生认同？",
+          "published_date": "2008-07-21",
+          "evidence": "同期新闻列出西交利物浦大学学费为每年5万元。"
+        }
+      ]
+    },
+    {
+      "year": 2009,
+      "annual_cny": 50000,
+      "source_url": "https://www.gaokao.com/e/20090531/4b8bca965fd7e.shtml",
+      "source_title": "西交利物浦大学2009年招生章程",
+      "published_date": "2009-05-31",
+      "document_date": "2009-03-31",
+      "source_type": "contemporary_admissions_charter_reproduction",
+      "evidence": "第4.1条列每人每学年5万元人民币，具体以各地招办正式公布为准；第4.2条单列住宿费。",
+      "verification": "full_text_read",
+      "confidence": "high",
+      "corroboration": [
+        {
+          "url": "https://gaokao.eol.cn/daxue/fangtan/200906/t20090624_386591.shtml",
+          "title": "西交利物浦大学2009年高招政策解读实录",
+          "published_date": "2009-06-24",
+          "evidence": "同期招生访谈说明苏州就读每年学费5万元。"
+        }
+      ]
+    },
+    {
+      "year": 2010,
+      "annual_cny": 60000,
+      "source_url": "https://www.gkzxw.com/gxzs/201004/43465.html",
+      "source_title": "2010年西交利物浦大学度内地本科招生章程",
+      "published_date": "2010-04-28",
+      "source_type": "contemporary_admissions_charter_reproduction",
+      "evidence": "内地本科招生章程第二十三条明确年学费6万元；第二十四条另列住宿费。",
+      "verification": "full_text_read",
+      "confidence": "high",
+      "policy_note": "在逐年核实的2006–2013序列中，2010是首次出现6万元新生年费的年份；本证据不是省级批复的正式生效日期。",
+      "corroboration": [
+        {
+          "url": "https://goabroad.sohu.com/20100315/n270843741.shtml",
+          "title": "西交利物浦大学：第一所强强联合 以理工管起步的大学",
+          "published_date": "2010-03-15",
+          "evidence": "招生办公室主任张韶峰介绍2010年本科学费约为6万元。"
+        }
+      ]
+    },
+    {
+      "year": 2011,
+      "annual_cny": 60000,
+      "source_url": "https://www.gkzxw.com/mbyx/201106/87344342743866.html",
+      "source_title": "2011年西交利物浦大学招生章程",
+      "published_date": "2011-06-16",
+      "source_type": "contemporary_admissions_charter_reproduction",
+      "evidence": "招生章程第二十条明确每学年人民币6万元；第二十一条另列住宿费。",
+      "verification": "full_text_read",
+      "confidence": "high",
+      "corroboration": [
+        {
+          "url": "https://edu.sina.com.cn/gaokao/2011-05-06/1901294758_3.shtml",
+          "title": "西交利物浦奖学金丰厚 毕业生就业状况很好",
+          "published_date": "2011-05-06",
+          "evidence": "同期招生办公室主任访谈说明每年学费6万元。"
+        }
+      ]
+    },
+    {
+      "year": 2012,
+      "annual_cny": 60000,
+      "source_url": "https://www.jseea.cn/webfile/upload/old/contents/channel_1/2012/06/1206261121193%284%29.pdf",
+      "source_title": "江苏省教育考试院2012年计划专刊（上册）·院校介绍·西交利物浦大学",
+      "published_date": "2012-06",
+      "source_type": "official_provincial_admissions_publication",
+      "evidence": "西浦院校介绍的学习费用栏列年学费6万元，住宿2300元、教材约2000元分别单列；一等奖学金亦列6万元。",
+      "verification": "indexed_pdf_text_read",
+      "confidence": "high",
+      "limitations": "检索工具可读到该PDF中的学校介绍与收费文字；直接打开因24.95 MB文件过大被检索工具拒绝，本地下载连接亦未成功。",
+      "corroboration": [
+        {
+          "url": "https://gaokao.chsi.com.cn/gkxx/hkzs/201204/20120409/300522118-2.html",
+          "title": "香港大学等8所高校招生政策详解",
+          "published_date": "2012-04-09",
+          "evidence": "教育部阳光高考转载招生政策，说明西浦2012年计划在江苏招生600人，并列年学费6万元。"
+        },
+        {
+          "url": "https://edu.sina.com.cn/gaokao/2012-07-27/1101350515.shtml",
+          "title": "西交利物浦模式启示了什么——写在2012高招季",
+          "published_date": "2012-07-27",
+          "evidence": "同期新华社报道转载列西浦本科年学费6万元。"
+        }
+      ]
+    },
+    {
+      "year": 2013,
+      "annual_cny": 66000,
+      "source_url": "https://gaokao.chsi.com.cn/gkxx/ss/201304/20130426/417717030.html",
+      "source_title": "广东：新增两所高校 试点综合评价录取",
+      "published_date": "2013-04-26",
+      "source_type": "education_ministry_admissions_portal_reproducing_contemporary_press",
+      "original_publisher": "广州日报",
+      "evidence": "2013年广东招生报道明确区分UIC年费6万元与西浦年费6.6万元。",
+      "verification": "search_index_text_read; live_open_returned_form_only",
+      "confidence": "high",
+      "policy_note": "在逐年核实的序列中，2013是首次出现6.6万元新生年费的年份；本证据不是省级批复的正式生效日期。",
+      "corroboration": [
+        {
+          "url": "https://edu.cnr.cn/pdtj/yw/201404/t20140401_515198749.shtml",
+          "title": "“国内留学”，能省多少学费？",
+          "published_date": "2014-04-01",
+          "evidence": "央广网比较表明确把西浦人民币6.6万元标注为2013年数值。"
+        },
+        {
+          "url": "https://www.hbzkw.com/gk/gzjh/40617.html",
+          "title": "2013年湖北高招第一批本科院校征集志愿院校及计划数",
+          "published_date": "2013-07",
+          "evidence": "2013年征集志愿表中，西交利物浦大学中外合作办学专业备注6.6万元/年。"
+        }
+      ]
+    }
+  ],
+  "policy_changes_observed": [
+    {"first_verified_entry_year": 2006, "annual_cny": 50000},
+    {"first_verified_entry_year": 2010, "annual_cny": 60000},
+    {"first_verified_entry_year": 2013, "annual_cny": 66000}
+  ],
+  "conflicts_and_scope_notes": [
+    "没有把每年学费与含住宿和生活费的四年总花费24万元混同。",
+    "现代SEO转载可能把2006年创办信息与后来8.8万元费率并排书写；不能据此把2006年费率认定为8.8万元。",
+    "2014年回溯报道提到6万元标准可上浮10%，与2013年6.6万元收费一致，但未给出该政策批复的精确日期。",
+    "此表未验证国际学生或港澳台学生在2006–2013年的独立收费政策，不应自动扩展适用人群。",
+    "每条记录对应当年的招生费率；尚未额外取得每届学生整个四年期间是否锁定入学费率的旧生旧办法批复，不应把四年总额作为逐年实际缴费记录。"
+  ],
+  "out_of_scope_useful_lead": {
+    "year": 2016,
+    "final_annual_cny": 88000,
+    "url": "https://www.xjtlu.edu.cn/zh/news/2016/06/xjtlu-2016-ug-quota",
+    "title": "西交利物浦大学2016年中国内地本科生招生计划正式发布",
+    "note": "官网2016年6月招生计划发布稿称经江苏省物价局批准，最终全日制本科年费调整为88,000元；早期2016年广东招生简章的77,000元注明以最终公布为准，不应采用为最终费率。"
+  }
+}
