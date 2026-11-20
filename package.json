@@ -1,5 +1,9 @@
 {
   "name": "xjtlu-tuition-clock",
+  "description": "A bilingual, offline tuition timer for XJTLU students.",
+  "license": "MIT",
+  "repository": "github:bsw2wzj9q9-collab/xjtlu-tuition-clock",
+  "homepage": "https://xjtlu-tuition-clock.netlify.app/",
   "private": true,
   "packageManager": "pnpm@11.25.0",
   "engines": {
